@@ -11,4 +11,4 @@ sheets_url='google.com'
 
 
 def handler():
-    return "hello"
+    return "Brian sucks"
