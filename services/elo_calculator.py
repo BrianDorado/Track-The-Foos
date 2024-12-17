@@ -1,3 +1,5 @@
+from importlib.metadata import pass_none
+import player_ratings
 
 
 def calculate_elo(player_rating: float, opponent_rating: float, player_won: bool, k: int = 32) -> float:
@@ -15,6 +17,24 @@ def calculate_elo(player_rating: float, opponent_rating: float, player_won: bool
 
     Docs: https://en.wikipedia.org/wiki/Elo_rating_system
     """
+
+    ra =
+    # Rating of player A
+
+    rb =
+    # Rating of player B
+
+
+    def prob_player_wins(rating_a, rating_b) -> list:
+        probability_a = 1/(1 + 10 ** ((rating_b - rating_a)/400))
+        probability_b = 1 - probability_a
+        return [probability_a, probability_b]
+
+
+
+
+
+
 
     expected_outcome = 1 / (1 + 10 ** ((opponent_rating - player_rating) / 400))
 
