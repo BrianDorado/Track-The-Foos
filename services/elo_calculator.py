@@ -19,19 +19,6 @@ def calculate_elo(player_rating: float, opponent_rating: float, player_won: bool
     """
 
 
-    ra = player_a.elo_rating
-    # Rating of player A
-
-    rb =
-    # Rating of player B
-
-
-    def prob_player_wins(rating_a, rating_b) -> list:
-        probability_a = 1/(1 + 10 ** ((rating_b - rating_a)/400))
-        probability_b = 1 - probability_a
-        return [probability_a, probability_b]
-
-
 
 
 

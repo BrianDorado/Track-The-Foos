@@ -11,6 +11,8 @@ class Player(ABC):
         self.goal_difference = goal_difference
 
 
+caden = Player()
+
 class Caden(Player):
     def __init__(self, elo_rating, color_rating, pct_wins, points_for, points_against, goal_difference):
         super().__init__(self, elo_rating, color_rating, pct_wins, points_for, points_against, goal_difference)
